@@ -1,0 +1,29 @@
+body{
+    background-color: gainsboro;
+    
+}
+
+img{
+    border-radius: 10px 10px 0 0;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    background-color: rgb(244, 244, 244);
+    width: 200px;
+    height: 200px;
+    padding-left: 25px;
+    padding-top: 5px;
+    border-radius: 0  0 10px 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100px);
+    grid-column-gap: 200px;
+    grid-row-gap: 100px;
+}
